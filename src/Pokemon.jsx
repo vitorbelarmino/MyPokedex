@@ -8,8 +8,6 @@ class Pokemon extends React.Component {
         return (
             pokemons.map((pokemon) => {
                 const { id ,name, type,averageWeight:{value, measurementUnit}, image } = pokemon
-                console.log()
-               
                 return <section className="box" key={ id }>
                         <div className="pokemonInfo">
                           <p>name: {name}</p>
